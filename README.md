@@ -15,6 +15,10 @@ R. K. Barman, S. R. Dhruba, D. T. Hoang, E. D. Shulman, E. M. Campagnolo, A. T. 
 
 While many deep learning models achieve strong accuracy, they often lack interpretability and do not reflect how pathologists evaluate morphology. EXPAND bridges this gap by focusing on a **compact set of biologically meaningful nuclear features**, making the pipeline intuitive, reproducible, and clinically relevant.  
 
+![**EXPAND**](EXPAND_methodology_v4.png)  
+<p align="center"><sup><i>
+Figure: The full pipeline for EXPAND
+</i></sup></p> 
 ---
 
 ## Why EXPAND?  
