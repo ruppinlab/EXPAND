@@ -19,6 +19,7 @@ While many deep learning models achieve strong accuracy, they often lack interpr
 <p align="center"><sup><i>
 Figure: The full pipeline for EXPAND
 </i></sup></p> 
+
 ---
 
 ## Why EXPAND?  
