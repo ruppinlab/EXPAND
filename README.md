@@ -37,8 +37,8 @@ Figure: The full pipeline for EXPAND
 1. **12 NPIFs** – compact, biologically interpretable nuclear features (area, perimeter, eccentricity, etc.) aligned with pathologist workflows.  
 2. **Subtype prediction** – HER2+, HR+, and TNBC classifiers trained with logistic regression.  
 3. **External validation** – tested on CPTAC-BRCA and POST-NAT-BRCA datasets.  
-4. **Survival modeling** – multivariate Cox regression models per subtype with Kaplan–Meier analysis for OS and PFS.  
-5. **Open pipeline** – end-to-end reproducible workflow, from WSI tiling to survival analysis.  
+4. **Survival modeling** – multivariate Cox regression models per subtype with Kaplan–Meier analysis for OS and PFS.
+5. **Workflow Example** – WSI Tiling through NPIF Computation  
 
 ---
 
@@ -50,7 +50,7 @@ Figure: The full pipeline for EXPAND
   ```bash
   python script_name.py
   ```  
-- Please update the **working directory** and adjust **file/folder paths** for your environment.  
+- Please make sure to update the **working directory** and adjust all **file/folder paths** in each script to match your environment before running. 
 
 ---
 
@@ -135,7 +135,7 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ---
 
-## 7–10. CPTAC-BRCA Pipeline  
+## 7. CPTAC-BRCA Pipeline  
 - **Segmentation:** `2_01_22_02_Test_CPTAC_Dataset_ExtractMorphologicalFeaturesFromHnE.py`  
 - **Morphology:** `2_02_03_02_CPTAC_MorphologyCalculation_All_Slides.py`  
 - **NPIFs:** `2_03_02_05_CPTAC_BRCA_NPIFs_Calculation_HoverNetPrediction_Filtered_Tiles_Top25Q.py`  
@@ -144,7 +144,7 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ---
 
-## 11. POST-NAT-BRCA Pipeline (equivalent steps)  
+## 8. POST-NAT-BRCA Pipeline (equivalent steps)  
 - **Segmentation:** `2_01_22_02_Test_POST_NAT_Dataset_ExtractMorphologicalFeaturesFromHnE.py`  
 - **Morphology:** `2_02_03_02_POST_NAT_MorphologyCalculation_All_Slides.py`  
 - **NPIFs:** `2_03_02_05_POST_NAT_BRCA_NPIFs_Calculation_HoverNetPrediction_Filtered_Tiles_Top25Q.py`  
@@ -153,7 +153,7 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ---
 
-## 12. Survival Analysis with EXPAND Features  
+## 9. Survival Analysis with EXPAND Features  
 - **Mapping scripts:**  
   - `5_01_01_mapped_hovernet_npifs_to_tcga_survival.py`  
   - `5_01_02_mapped_pathai_hifs_to_tcga_survival.py`  
@@ -167,7 +167,7 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ---
 
-## 13. Subtype Prediction from PathAI-derived Features  
+## 10. Subtype Prediction from PathAI-derived Features  
 - **Scripts:**  
   - `1_01_01_mapped_tcga_biomarker_status_to_original_hifs_with_comments.py`  
   - `2_01_01_PathAI_Metadata_Original_nuHIFs_And_TCGA_BiomarkerStatus.py`  
@@ -176,7 +176,7 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ---
 
-## 14. Direct Feature Extraction (ResNet50)  
+## 11. Direct Feature Extraction (ResNet50)  
 - **Scripts:**  
   - `3_01_01_02_TCGA_BRCASubtypes_to_DirectHnE_Features_Resnet50.py`  
   - `3_01_04_103_04_103_02_BRCA_Clinical_Subtype_Prediction_Using_All_Direct_Features.py`  
