@@ -26,7 +26,7 @@ Figure: The full pipeline for EXPAND
 
 - **Transparent:** Uses 12 Nuclear Pathologist-Interpretable Features (NPIFs) derived from nuclei segmented with open-source tools.  
 - **Robust:** Achieves predictive performance comparable to or better than black-box DL models using logistic regression with cross-validation.  
-- **Generalizable:** Validated on CPTAC-BRCA and POST-NAT-BRCA cohorts in addition to TCGA.  
+- **Generalizable:** Validated on CPTAC-BRCA and POST-NAT-BRCA cohorts in addition to TCGA-BRCA.  
 - **Scalable:** Requires only standard H&E slides and Hover-Net segmentation, making it deployable across cancer types and settings.  
 - **Prognostic:** NPIFs independently predict survival outcomes (OS, PFS), enabling clinically interpretable risk stratification.  
 
