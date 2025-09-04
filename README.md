@@ -45,7 +45,7 @@ Figure: The full pipeline for EXPAND
 ## Availability  
 
 - All **source codes** are included in this repository.  
-- A **short user guide** is provided below for quick setup. A full, step-by-step pipeline walkthrough is available in the detailed **User Guide (Word file)**.  
+- A **short user guide** is provided below for quick setup. A full, step-by-step pipeline walkthrough is available in the detailed **User Guide (Word file)** (./EXPAND_User_Guide_V1.docx).  
 - The ML predictors were developed on **macOS (Python)** and tested on **Linux (HPC environment)**. Scripts can be run interactively in a Python IDE or from the command line:  
   ```bash
   python script_name.py
@@ -186,7 +186,7 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ## Reproducing Results  
 
-All results described in the manuscript can be reproduced using the scripts provided in this repository. Follow the step-by-step workflow in the **User Guide** to replicate subtype classification, external validation, and survival analyses.  
+All results described in the manuscript can be reproduced using the scripts provided in this repository. Follow the step-by-step workflow in the **User Guide** ((./EXPAND_User_Guide_V1.docx))to replicate subtype classification, external validation, and survival analyses.  
 
 ---
 
