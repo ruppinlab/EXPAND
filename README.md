@@ -38,7 +38,7 @@ Figure: The full pipeline for EXPAND
 2. **Subtype prediction** – HER2+, HR+, and TNBC classifiers trained with logistic regression.  
 3. **External validation** – tested on CPTAC-BRCA and POST-NAT-BRCA datasets.  
 4. **Survival modeling** – multivariate Cox regression models per subtype with Kaplan–Meier analysis for OS and PFS.
-5. **Workflow Example** – WSI Tiling through NPIF Computation  
+5. **Workflow example** – WSI tiling through NPIFs computation.  
 
 ---
 
