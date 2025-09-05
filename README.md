@@ -117,31 +117,39 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ---
 
-## 4. NPIF Calculation (TCGA-BRCA)  
+## 4. NPIF Calculation (TCGA-BRCA)
+- **Folder:**  
+  `NPIFs_generation_codes/TCGA_BRCA/NPIFs_Generation`
 - **Scripts:**  
-  - `2_03_01_01_NPIFs_Calculation_HoverNet_V0.py` (all tiles)  
-  - `2_03_01_01_NPIFs_Calculation_HoverNet_V1.py` (top 25% cancer-enriched tiles)  
+  - `2_03_01_01_NPIFs_Calculation_HoverNet_V0.py/.ipynb` (all tiles)  
+  - `2_03_01_01_NPIFs_Calculation_HoverNet_V1.py/.ipynb` (top 25% cancer-enriched tiles)  
 - **Task:** Compute 12 NPIFs per slide from Hover-Net outputs.  
 
 ---
 
-## 5. Mapping NPIFs to BRCA Biomarker Status  
+## 5. Mapping NPIFs to BRCA Biomarker Status
+- **Folder:**  
+  `NPIFs_generation_codes/TCGA_BRCA/NPIFs_Generation`
 - **Scripts:**  
-  - `3_01_01_02_Mapped_Original_Value_Hovernet_NPIFs_to_BRCA_Subtypes.py` (all tiles)  
-  - `3_01_01_06_...Top25Q.py` (top 25% tiles)  
+  - `3_01_01_02_Mapped_Original_Value_Hovernet_NPIFs_to_BRCA_Subtypes.py/.ipynb` (all tiles)  
+  - `3_01_01_06_...Top25Q.py/.ipynb` (top 25% tiles)  
 - **Task:** Merge NPIFs with HER2, ER, PR metadata.  
 
 ---
 
-## 6. BRCA Subtype Prediction Using NPIFs  
+## 6. BRCA Subtype Prediction Using NPIFs
+- **Folder:**  
+  `Subtypes_prediction_codes/TCGA_BRCA`
 - **Scripts:**  
-  - `4_01_04_103_04_101_...All_Tiles_Using_Lasso.py`  
-  - `4_01_04_103_04_103_...Top25Q.py`  
+  - `4_01_04_103_04_101_...All_Tiles_Using_Lasso.py/.ipynb`  
+  - `4_01_04_103_04_103_...Top25Q.py/.ipynb`  
 - **Task:** Train logistic regression classifiers (L1 penalty) for HER2+, HR+, TNBC.  
 
 ---
 
-## 7. CPTAC-BRCA Pipeline  
+## 7. CPTAC-BRCA Pipeline
+- **Folder:**  
+  `NPIFs_generation_codes/CPTAC_BRCA/Segmentation`
 - **Segmentation:** `2_01_22_02_Test_CPTAC_Dataset_ExtractMorphologicalFeaturesFromHnE.py`  
 - **Morphology:** `2_02_03_02_CPTAC_MorphologyCalculation_All_Slides.py`  
 - **NPIFs:** `2_03_02_05_CPTAC_BRCA_NPIFs_Calculation_HoverNetPrediction_Filtered_Tiles_Top25Q.py`  
