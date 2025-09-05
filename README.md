@@ -89,7 +89,7 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 ## 1. Tile Generation (TCGA-BRCA) 
 
 - **Folder:**  
-  `/Slide_preprocessing_codes/`
+  `Slide_preprocessing_codes`
 - **Scripts:**  
   - `1_01_get_tiles_from_slide.py`  
   - `1_11_jobs_to_get_tiles.py`  
@@ -98,6 +98,8 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 ---
 
 ## 2. Tile-level Nucleus Segmentation with Hover-Net (TCGA-BRCA)  
+- **Folder:**  
+  `NPIFs_generation_codes/TCGA_BRCA/Segmentation`
 - **Scripts:**  
   - `2_01_22_ExtractMorphologicalFeaturesFromHnE.py/.ipynb`  
   - `2_01_100_01_JobSubmissionCode.py/.ipynb`  
@@ -106,9 +108,11 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 ---
 
 ## 3. TCGA-BRCA: Morphology Computation  
+- **Folder:**  
+  `NPIFs_generation_codes/TCGA_BRCA/Morphology_features_calculation`
 - **Scripts:**  
-  - `2_02_03_MorphologyCalculation_All_Slides.py`  
-  - `2_02_13_Job_Submission_MorphologyCalculation_All_Slides.py`  
+  - `2_02_03_MorphologyCalculation_All_Slides.py/.ipynb`  
+  - `2_02_13_Job_Submission_MorphologyCalculation_All_Slides.py/.ipynb`  
 - **Task:** Compute per-nucleus morphology (area, perimeter, axis length, eccentricity, circularity).  
 
 ---
