@@ -148,8 +148,7 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 ---
 
 ## 7. CPTAC-BRCA Pipeline
-- **Folder:**  
-  `NPIFs_generation_codes/CPTAC_BRCA/Segmentation`
+- **Folder:** `NPIFs_generation_codes/CPTAC_BRCA/Segmentation`
 - **Segmentation:** `2_01_22_02_Test_CPTAC_Dataset_ExtractMorphologicalFeaturesFromHnE.py`  
 - **Morphology:** `2_02_03_02_CPTAC_MorphologyCalculation_All_Slides.py`  
 - **NPIFs:** `2_03_02_05_CPTAC_BRCA_NPIFs_Calculation_HoverNetPrediction_Filtered_Tiles_Top25Q.py`  
