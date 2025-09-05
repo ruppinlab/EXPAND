@@ -88,8 +88,8 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ## 1. Tile Generation (TCGA-BRCA) 
 
-- **Folder:**
-  - 'Slide_preprocessing_codes/'
+- **Folder:**  
+  `/Slide_preprocessing_codes/`
 - **Scripts:**  
   - `1_01_get_tiles_from_slide.py`  
   - `1_11_jobs_to_get_tiles.py`  
