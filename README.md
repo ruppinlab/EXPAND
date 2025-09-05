@@ -1,6 +1,6 @@
 # EXPAND (EXplainable Pathologist Aligned Nuclear Discriminator)  
 
-**Note:** This manuscript is currently under journal submission.  
+**Note:** The manuscript has been submitted and is under editorial review.  
 
 **Citation (preprint forthcoming):**  
 R. K. Barman, S. R. Dhruba, D. T. Hoang, E. D. Shulman, E. M. Campagnolo, A. T. Wang, S. A. Harmon, T. C. Hu, A. Papanicolau-Sengos, M. P. Nasrallah, K. D. Aldape, E. Ruppin.  
@@ -45,7 +45,7 @@ Figure: The full pipeline for EXPAND
 ## Availability  
 
 - All **source codes** are included in this repository.  
-- A **short user guide** is provided below for quick setup. A full, step-by-step pipeline walkthrough is available in the detailed **User Guide (Word file)** (./EXPAND_User_Guide_V1.docx).  
+- A **short user guide** is provided below for quick setup. A full, step-by-step pipeline walkthrough is available in the detailed [**User Guide (PDF)**](https://github.com/ruppinlab/EXPAND/blob/main/EXPAND_User_Guide_V1.pdf). 
 - The ML predictors were developed on **macOS (Python)** and tested on **Linux (HPC environment)**. Scripts can be run interactively in a Python IDE or from the command line:  
   ```bash
   python script_name.py
@@ -186,7 +186,7 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ## Reproducing Results  
 
-All results described in the manuscript can be reproduced using the scripts provided in this repository. Follow the step-by-step workflow in the **User Guide** ((./EXPAND_User_Guide_V1.docx))to replicate subtype classification, external validation, and survival analyses.  
+All results described in the manuscript can be reproduced using the scripts provided in this repository. Follow the step-by-step workflow in the **User Guide** [**User Guide (PDF)**](https://github.com/ruppinlab/EXPAND/blob/main/EXPAND_User_Guide_V1.pdf) to replicate subtype classification, external validation, and survival analyses.  
 
 ---
 
