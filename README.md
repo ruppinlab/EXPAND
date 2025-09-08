@@ -159,31 +159,43 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 - **Folder:** `NPIFs_generation_codes/CPTAC_BRCA/NPIFs_Generation`  
 - **NPIFs:** `2_03_02_05_CPTAC_BRCA_NPIFs_Calculation_HoverNetPrediction_Filtered_Tiles_Top25Q.py/.ipynb`
 - **Folder:** `NPIFs_generation_codes/CPTAC_BRCA/NPIFs_Generation`  
-- **Mapping:** `3_01_01_07_CPTAC_Mapped_Original_Value...Top25Q.py/.ipynb`  
-- **External Prediction:** `6_01_04_103_04_103_CPTAC_Prediction_Using_...Top25Q.py`  
+- **Mapping:** `3_01_01_07_CPTAC_Mapped_Original_Value...Top25Q.py/.ipynb`
+- **Folder:** `Subtypes_prediction_codes/CPTAC_BRCA`  
+- **External Prediction:** `6_01_04_103_04_103_CPTAC_Prediction_Using_...Top25Q.py/.ipynb`  
 
 ---
 
-## 8. POST-NAT-BRCA Pipeline (equivalent steps)  
-- **Segmentation:** `2_01_22_02_Test_POST_NAT_Dataset_ExtractMorphologicalFeaturesFromHnE.py`  
-- **Morphology:** `2_02_03_02_POST_NAT_MorphologyCalculation_All_Slides.py`  
-- **NPIFs:** `2_03_02_05_POST_NAT_BRCA_NPIFs_Calculation_HoverNetPrediction_Filtered_Tiles_Top25Q.py`  
-- **Mapping:** `3_01_01_07_POST_NAT_Mapped_Original_Value...Top25Q.py`  
-- **Subtype Prediction:** `6_01_04_103_04_103_Lasso_POST_NAT_Prediction...Top25Q.py`  
+## 8. POST-NAT-BRCA Pipeline (equivalent steps)
+- **Folder:** `NPIFs_generation_codes/POST_NAT_BRCA/Segmentation`
+- **Segmentation:**
+  - `2_01_22_02_Test_POST_NAT_Dataset_ExtractMorphologicalFeaturesFromHnE.py/.ipynb`
+  - `2_01_100_02_POST_NAT_JobSubmissionCode.py/.ipynb` 
+- **Folder:** `NPIFs_generation_codes/POST_NAT_BRCA/Morphology_features_calculation`
+- **Morphology:**
+  - `2_02_03_02_POST_NAT_MorphologyCalculation_All_Slides.py`
+  - `2_02_13_02_POST_NAT_Job_Submission_MorphologyCalculation_All_Slides.py/.ipynb`  
+- **Folder:** `NPIFs_generation_codes/POST_NAT_BRCA/NPIFs_Generation`
+- **NPIFs:** `2_03_02_05_POST_NAT_BRCA_NPIFs_Calculation_HoverNetPrediction_Filtered_Tiles_Top25Q.py/.ipynb`  
+- **Folder:** `NPIFs_generation_codes/POST_NAT_BRCA/NPIFs_Generation`
+- **Mapping:** `3_01_01_07_POST_NAT_Mapped_Original_Value...Top25Q.py/.ipynb`
+- **Folder:** `Subtypes_prediction_codes/POST_NAT_BRCA`  
+- **Subtype Prediction:** `6_01_04_103_04_103_Lasso_POST_NAT_Prediction...Top25Q.py/.ipynb`  
 
 ---
 
-## 9. Survival Analysis with EXPAND Features  
+## 9. Survival Analysis with EXPAND Features
+- **Folder:** `Survival_codes`
 - **Mapping scripts:**  
-  - `5_01_01_mapped_hovernet_npifs_to_tcga_survival.py`  
-  - `5_01_02_mapped_pathai_hifs_to_tcga_survival.py`  
-  - `5_01_03_mapped_pathai_nuhifs_to_tcga_survival.py`  
-  - `5_01_04_mapped_pathai_pifs_to_tcga_survival.py`  
+  - `5_01_01_mapped_hovernet_npifs_to_tcga_survival.py/.ipynb`  
+  - `5_01_02_mapped_pathai_hifs_to_tcga_survival.py/.ipynb`  
+  - `5_01_03_mapped_pathai_nuhifs_to_tcga_survival.py/.ipynb`  
+  - `5_01_04_mapped_pathai_pifs_to_tcga_survival.py/.ipynb`  
+- **Folder:** `Survival_codes`
 - **Model scripts:**  
-  - `6_01_01_all_npifs_OS_analysis_with_age_cv.py`  
-  - `6_01_02_01_all_hifs_OS_analysis...py`  
-  - `6_01_03_01_all_nuhifs_OS_analysis...py`  
-  - `6_01_04_01_all_pifs_OS_analysis...py`  
+  - `6_01_01_all_npifs_OS_analysis_with_age_cv.py/.ipynb`  
+  - `6_01_02_01_all_hifs_OS_analysis...py/.ipynb`  
+  - `6_01_03_01_all_nuhifs_OS_analysis...py/.ipynb`  
+  - `6_01_04_01_all_pifs_OS_analysis...py/.ipynb`  
 
 ---
 
