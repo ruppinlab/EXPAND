@@ -1,11 +1,10 @@
 # EXPAND (EXplainable Pathologist Aligned Nuclear Discriminator)  
 
-**Note:** The manuscript has been submitted and is under editorial review.  
+**Note:** The manuscript has been submitted and is under review.  
 
 **Citation (preprint available):**  
 R. K. Barman, S. R. Dhruba, D. T. Hoang, E. D. Shulman, E. M. Campagnolo, A. T. Wang, S. A. Harmon, T. C. Hu, A. Papanicolau-Sengos, M. P. Nasrallah, K. D. Aldape, E. Ruppin.  
-*"Pathologist-interpretable breast cancer subtyping and stratification from AI-inferred nuclear features"*, 2025.  
-[Preprint link (bioRxiv)](https://www.biorxiv.org/content/10.1101/2025.09.04.674077v1)
+[*"Pathologist-interpretable breast cancer subtyping and stratification from AI-inferred nuclear features"*](https://www.biorxiv.org/content/10.1101/2025.09.04.674077v1), 2025.  
  
 
 ---
