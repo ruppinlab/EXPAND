@@ -150,10 +150,17 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ## 7. CPTAC-BRCA Pipeline
 - **Folder:** `NPIFs_generation_codes/CPTAC_BRCA/Segmentation`
-- **Segmentation:** `2_01_22_02_Test_CPTAC_Dataset_ExtractMorphologicalFeaturesFromHnE.py`  
-- **Morphology:** `2_02_03_02_CPTAC_MorphologyCalculation_All_Slides.py`  
-- **NPIFs:** `2_03_02_05_CPTAC_BRCA_NPIFs_Calculation_HoverNetPrediction_Filtered_Tiles_Top25Q.py`  
-- **Mapping:** `3_01_01_07_CPTAC_Mapped_Original_Value...Top25Q.py`  
+- **Segmentation:**
+  - `2_01_22_02_Test_CPTAC_Dataset_ExtractMorphologicalFeaturesFromHnE.py/.ipynb`
+  - `2_01_100_02_01_JobSubmissionCode.py/.ipynb`
+- **Folder:** `NPIFs_generation_codes/CPTAC_BRCA/Morphology_features_calculation`  
+- **Morphology:**
+  - `2_02_03_02_CPTAC_MorphologyCalculation_All_Slides.py/.ipynb`
+  - `2_02_13_02_CPTAC_Job_Submission_MorphologyCalculation_All_Slides.py/.ipynb`
+- **Folder:** `NPIFs_generation_codes/CPTAC_BRCA/NPIFs_Generation`  
+- **NPIFs:** `2_03_02_05_CPTAC_BRCA_NPIFs_Calculation_HoverNetPrediction_Filtered_Tiles_Top25Q.py/.ipynb`
+- **Folder:** `NPIFs_generation_codes/CPTAC_BRCA/NPIFs_Generation`  
+- **Mapping:** `3_01_01_07_CPTAC_Mapped_Original_Value...Top25Q.py/.ipynb`  
 - **External Prediction:** `6_01_04_103_04_103_CPTAC_Prediction_Using_...Top25Q.py`  
 
 ---
