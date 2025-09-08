@@ -2,10 +2,11 @@
 
 **Note:** The manuscript has been submitted and is under editorial review.  
 
-**Citation (preprint forthcoming):**  
+**Citation (preprint available):**  
 R. K. Barman, S. R. Dhruba, D. T. Hoang, E. D. Shulman, E. M. Campagnolo, A. T. Wang, S. A. Harmon, T. C. Hu, A. Papanicolau-Sengos, M. P. Nasrallah, K. D. Aldape, E. Ruppin.  
 *"Pathologist-interpretable breast cancer subtyping and stratification from AI-inferred nuclear features"*, 2025.  
-[Preprint link (coming soon)]()  
+[Preprint link (bioRxiv)](https://www.biorxiv.org/content/10.1101/2025.09.04.674077v1)
+ 
 
 ---
 
@@ -199,7 +200,11 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ## Reproducing Results  
 
-All results described in the manuscript can be reproduced using the scripts provided in this repository. Follow the step-by-step workflow in the **User Guide** [**User Guide (PDF)**](https://github.com/ruppinlab/EXPAND/blob/main/EXPAND_User_Guide_V1.pdf) to replicate subtype classification, external validation, and survival analyses.  
+## Reproducing Results  
+
+All results described in the manuscript can be reproduced using the scripts provided in this repository.  
+- Follow the step-by-step workflow in the [**User Guide (PDF)**](https://github.com/ruppinlab/EXPAND/blob/main/EXPAND_User_Guide_V1.pdf) to replicate subtype classification, external validation, and survival analyses.  
+- All manuscript-related figures are available here: [**Figures/**](https://github.com/ruppinlab/EXPAND/tree/main/Figures).  
 
 ---
 
