@@ -200,18 +200,30 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 ---
 
 ## 10. Subtype Prediction from PathAI-derived Features  
+- **Folder:** `PathAI_codes`
 - **Scripts:**  
-  - `1_01_01_mapped_tcga_biomarker_status_to_original_hifs_with_comments.py`  
-  - `2_01_01_PathAI_Metadata_Original_nuHIFs_And_TCGA_BiomarkerStatus.py`  
-  - `3_01_01_PathAI_Metadata_Original_PIFs_And_TCGA_BiomarkerStatus.py`  
-  - Corresponding subtype prediction scripts.  
+  - `1_01_01_mapped_tcga_biomarker_status_to_original_hifs_with_comments.py/.ipynb`  
+  - `2_01_01_PathAI_Metadata_Original_nuHIFs_And_TCGA_BiomarkerStatus.py/.ipynb`  
+  - `3_01_01_PathAI_Metadata_Original_PIFs_And_TCGA_BiomarkerStatus.py/.ipynb`  
+  - `1_01_04_103_04_103_BRCA_Clinical_Subtype_..._All_PathAI_HIFs_...Classification.py/.ipynb`
+  - `2_01_04_103_04_103_BRCA_Clinical_Subtype_..._All_PathAI_nuHIFs_..._Classification.py/.ipynb`
+  - `3_01_04_103_04_103_BRCA_Clinical_Subtype_..._All_PathAI_PIFs_..._Classification.py/.ipynb`
+  - `3_01_04_103_04_103_01_BRCA_Clinical_Subtype_..._All_PathAI_NPIFs_..._Classification.py/.ipynb`    
+    
 
 ---
 
 ## 11. Direct Feature Extraction (ResNet50)  
-- **Scripts:**  
-  - `3_01_01_02_TCGA_BRCASubtypes_to_DirectHnE_Features_Resnet50.py`  
-  - `3_01_04_103_04_103_02_BRCA_Clinical_Subtype_Prediction_Using_All_Direct_Features.py`  
+- **Folder:** `Direct_codes`
+- **Scripts:**
+  - `1_01_get_tiles_from_slide.py`
+  - `1_02_get_features_from_tiles2.py`
+  - `1_03_collect_all_features_masks.py`
+  - `1_11_jobs_to_get_tiles.py`
+  - `1_12_jobs_to_get_features2.py`
+  - `1_13_jobs_to_collect_features2.py` 
+  - `3_01_01_02_TCGA_BRCASubtypes_to_DirectHnE_Features_Resnet50.py/.ipynb`  
+  - `3_01_04_103_04_103_02_BRCA_Clinical_Subtype_Prediction_Using_All_Direct_Features.py/.ipynb`  
 - **Task:** Extract slide-level embeddings with ResNet50 and train subtype classifiers.    
 
 ---
