@@ -228,6 +228,44 @@ This repository contains the complete **EXPAND pipeline** for **tile generation,
 
 ---
 
+## 12A. Top tile selection (TCGA-BRCA)
+
+### 12A.1 What this does
+This module filters slides to keep only the **top X% of cancer-enriched tiles** (ranked by cancer nuclei counts).  
+NPIFs are then computed from these tiles, mapped to BRCA subtype status, and used for subtype prediction.  
+By focusing on the most informative tiles, this approach improves signal-to-noise ratio and enhances subtype-specific predictions.  
+
+### 12A.2 Code locations
+- **Folder:** `Top_tiles_selection_codes`  
+  - NPIF computation  
+  - Mapping NPIFs to subtypes  
+  - Subtype prediction  
+  - Job submission (HPC)  
+
+---
+
+## 12B. Immune nuclei–based NPIFs and subtype prediction
+
+### 12B.1 What this does
+In addition to cancer nuclei, the EXPAND pipeline also computes NPIFs from **immune nuclei**.  
+These immune-derived NPIFs are mapped to BRCA subtypes (HER2+, HR+, TNBC) and compared against cancer nuclei–based EXPAND models, to test whether immune morphology provides complementary predictive value.  
+
+### 12B.2 Code locations
+- **Immune morphology computation:**  
+  - `NPIFs_generation_codes/TCGA_BRCA/Immune_morphology_calculation`  
+  - `NPIFs_generation_codes/CPTAC_BRCA/Immune_morphology_calculation`  
+  - `NPIFs_generation_codes/POST_NAT_BRCA/Immune_morphology_calculation`  
+
+- **Immune NPIF generation:**  
+  - `NPIFs_generation_codes/TCGA_BRCA/Immune_NPIFs_Generation`  
+  - `NPIFs_generation_codes/CPTAC_BRCA/Immune_NPIFs_Generation`  
+  - `NPIFs_generation_codes/POST_NAT_BRCA/Immune_NPIFs_Generation`  
+
+- **Subtype prediction:**  
+  - `Subtypes_prediction_codes/Immune_subtypes_prediction`  
+
+---
+
 ## Reproducing Results  
 
 All results described in the manuscript can be reproduced using the scripts provided in this repository.  
