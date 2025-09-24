@@ -236,12 +236,8 @@ NPIFs are then computed from these tiles, mapped to BRCA subtype status, and use
 By focusing on the most informative tiles, this approach improves signal-to-noise ratio and enhances subtype-specific predictions.  
 
 ### 12A.2 Code locations
-- **Folder:** `Top_tiles_selection_codes`  
-  - NPIF computation  
-  - Mapping NPIFs to subtypes  
-  - Subtype prediction  
-  - Job submission (HPC)  
-
+- **Folder:** `Top_tiles_selection_codes`
+  
 ---
 
 ## 12B. Immune nuclei–based NPIFs and subtype prediction
